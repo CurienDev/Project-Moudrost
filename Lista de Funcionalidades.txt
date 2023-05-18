@@ -1,0 +1,19 @@
+1. Calculadora de préstamos: una herramienta que permita a los usuarios calcular cuánto pagarán en intereses y cuánto será el pago mensual de un préstamo en base a ciertos parámetros como el monto del préstamo, la tasa de interés y el plazo.
+
+2. Simulador de inversiones: una aplicación que permita simular cómo serían las ganancias a largo plazo de una inversión determinada en base a diferentes factores como el capital invertido, el tipo de inversión, la tasa de interés, y el plazo.
+
+3. Herramienta de presupuesto: una herramienta que ayude a las personas a llevar un registro de sus gastos mensuales y a establecer un presupuesto para evitar gastos excesivos y ahorrar.
+
+4. Aplicación de seguimiento de gastos: una aplicación que permita a los usuarios llevar un registro de sus gastos diarios y categorizarlos en diferentes tipos de gastos (alimentación, transporte, entretenimiento, etc.) para ayudarles a identificar áreas en las que puedan ahorrar.
+
+5. Calculadora de impuestos: una herramienta que permita a los usuarios calcular cuánto deberán pagar en impuestos en base a su salario anual y otros factores relevantes.
+
+6. Calculadora de retorno de inversión (ROI): una herramienta que permita a los usuarios calcular el ROI de una inversión en base al capital invertido, las ganancias obtenidas y el plazo de la inversión.
+
+7. Calculadora de hipotecas: una herramienta que permita a los usuarios calcular cuánto pagarán en intereses y cuál será el pago mensual de una hipoteca en base a factores como el monto del préstamo, la tasa de interés y el plazo.
+
+8. Plataforma de trading: una plataforma de trading que permita a los usuarios invertir en diferentes activos financieros como acciones, divisas, índices y materias primas.
+
+9. Calculadora de dividendos: una herramienta que permita a los usuarios calcular cuánto recibirán en dividendos en base a la cantidad de acciones que poseen, la tasa de dividendo y el plazo.
+
+10. Analizador de riesgo: una herramienta que permita a los usuarios analizar el riesgo de diferentes inversiones en base a diferentes factores como la volatilidad del mercado, la tasa de interés y la situación económica global.
