@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function() {
       prestamos = prestamosGuardados;
       prestamos.forEach((prestamo, index) => {
         const li = document.createElement("li");
-        li.textContent = `Préstamo ${index + 1}: Empresa: ${prestamo.empresa}, Monto: $${prestamo.monto}, Intereses: $${prestamo.intereses}, Total: $${prestamo.total}, Cuota Mensual: $${prestamo.cuotaMensual}`;
+        li.textContent = `Préstamo ${index + 1}: Empresa: ${prestamo.empresa}, Monto: $${prestamo.monto}, Intereses: $${prestamo.intereses}, Total a pagar: $${prestamo.total}, Cuota Mensual: $${prestamo.cuotaMensual}`;
         listaPrestamos.appendChild(li);
 
         const deleteBtn = document.createElement("button");
