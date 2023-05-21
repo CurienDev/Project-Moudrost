@@ -8,7 +8,6 @@
 </head>
 <body>
     <h1>Solicitud de Préstamo</h1>
-  
     <div>
         <label for="empresa">Seleccione una empresa:</label>
         <select id="empresa">
@@ -17,14 +16,12 @@
             <option value="agricultura">AgroIndustrias</option>
         </select>
     </div>
-    
     <div>
         <label for="monto">Ingrese el monto del préstamo:</label>
         <input type="number" id="monto">
     </div>
-    
+    <p id="mensajeError"></p>
     <button id="calcular">Calcular</button>
-    
     <h2>Detalles del Préstamo</h2>
     <p id="nombreEmpresa"></p>
     <p id="tasaInteres"></p>
@@ -34,7 +31,6 @@
     <p id="intereses"></p>
     <p id="total"></p>
     <p id="cuotaMensual"></p>
-    
     <h2>Préstamos Realizados</h2>
     <ul id="listaPrestamos"></ul>
     <script src="./main.js"></script>

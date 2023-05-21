@@ -41,10 +41,15 @@ document.addEventListener("DOMContentLoaded", function() {
     const empresa = prestadores[empresaValue];
     const monto = parseInt(montoInput.value);
 
-    if (isNaN(monto) || monto < empresa.montoMinimo || monto > empresa.montoMaximo) {
-      return alert("ingrese un monto entre: "+ empresa.montoMinimo + " y " +empresa.montoMaximo);
-    };
+    const mensajeError = document.getElementById("mensajeError");
 
+    if (isNaN(monto) || monto < empresa.montoMinimo || monto > empresa.montoMaximo) {
+      mensajeError.textContent = "Esta empresa solo admite prestamos entre: " + empresa.montoMinimo + " y " + empresa.montoMaximo + ", por favor, ingrese el monto correcto.";
+      return;
+    } else {
+      mensajeError.textContent = "";
+    }
+    
     const { intereses, total, cuotaMensual } = calcularPrestamo(monto, empresa.tasaInteres, empresa.plazoPagos);
 
     document.getElementById("nombreEmpresa").textContent = "Empresa: " + empresa.nombre;
