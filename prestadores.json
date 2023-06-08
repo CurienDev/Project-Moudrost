@@ -1,0 +1,92 @@
+{
+    "prestadores": [
+      {
+        "nombre": "TecnoSoft",
+        "tasaInteres": 15,
+        "montoMinimo": 5000,
+        "montoMaximo": 50000,
+        "plazoPagos": 12,
+        "estadoContratacion": "vigente"
+      },
+      {
+        "nombre": "Minerales S.A.",
+        "tasaInteres": 20,
+        "montoMinimo": 10000,
+        "montoMaximo": 100000,
+        "plazoPagos": 24,
+        "estadoContratacion": "caducado"
+      },
+      {
+        "nombre": "AgroIndustrias",
+        "tasaInteres": 12,
+        "montoMinimo": 2000,
+        "montoMaximo": 20000,
+        "plazoPagos": 6,
+        "estadoContratacion": "proximo"
+      },
+      {
+        "nombre": "Tecnología Innovadora",
+        "tasaInteres": 18,
+        "montoMinimo": 8000,
+        "montoMaximo": 60000,
+        "plazoPagos": 18,
+        "estadoContratacion": "vigente"
+      },
+      {
+        "nombre": "Industria Química",
+        "tasaInteres": 22,
+        "montoMinimo": 15000,
+        "montoMaximo": 120000,
+        "plazoPagos": 36,
+        "estadoContratacion": "caducado"
+      },
+      {
+        "nombre": "Fabricación y Producción",
+        "tasaInteres": 14,
+        "montoMinimo": 3000,
+        "montoMaximo": 30000,
+        "plazoPagos": 9,
+        "estadoContratacion": "vigente"
+      },
+      {
+        "nombre": "Construcciones Rápidas",
+        "tasaInteres": 16,
+        "montoMinimo": 7000,
+        "montoMaximo": 40000,
+        "plazoPagos": 15,
+        "estadoContratacion": "proximo"
+      },
+      {
+        "nombre": "Servicios Tecnológicos",
+        "tasaInteres": 19,
+        "montoMinimo": 10000,
+        "montoMaximo": 80000,
+        "plazoPagos": 20,
+        "estadoContratacion": "vigente"
+      },
+      {
+        "nombre": "Industria Automotriz",
+        "tasaInteres": 21,
+        "montoMinimo": 20000,
+        "montoMaximo": 150000,
+        "plazoPagos": 30,
+        "estadoContratacion": "caducado"
+      },
+      {
+        "nombre": "Energías Renovables",
+        "tasaInteres": 13,
+        "montoMinimo": 5000,
+        "montoMaximo": 50000,
+        "plazoPagos": 12,
+        "estadoContratacion": "vigente"
+      },
+      {
+        "nombre": "Alimentos y Bebidas",
+        "tasaInteres": 17,
+        "montoMinimo": 9000,
+        "montoMaximo": 70000,
+        "plazoPagos": 18,
+        "estadoContratacion": "proximo"
+      }
+    ]
+  }
