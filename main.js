@@ -160,6 +160,65 @@ document.addEventListener("DOMContentLoaded", function() {
         });
       }
 
+const prestadoresVigentes = prestadores.filter(prestador => prestador.estadoContratacion === "vigente");
+const prestadoresProximos = prestadores.filter(prestador => prestador.estadoContratacion === "proximo");
+
+const interesesChart = new Chart(document.getElementById("interesesChart"), {
+  type: "bar",
+  data: {
+    labels: ["Vigentes", "Próximos"],
+    datasets: [
+      {
+        label: "Intereses",
+        data: [
+          prestadoresVigentes.map(prestador => prestador.tasaInteres),
+          prestadoresProximos.map(prestador => prestador.tasaInteres)
+        ],
+        backgroundColor: ["rgba(54, 162, 235, 0.5)", "rgba(255, 99, 132, 0.5)"]
+      }
+    ]
+  },
+  options: {
+    scales: {
+      y: {
+        beginAtZero: true,
+        ticks: {
+          callback: value => value + "%"
+        }
+      }
+    }
+  }
+});
+
+const plazosChart = new Chart(document.getElementById("plazosChart"), {
+  type: "bar",
+  data: {
+    labels: ["Vigentes", "Próximos"],
+    datasets: [
+      {
+        label: "Plazos",
+        data: [
+          prestadoresVigentes.map(prestador => prestador.plazoPagos),
+          prestadoresProximos.map(prestador => prestador.plazoPagos)
+        ],
+        backgroundColor: ["rgba(54, 162, 235, 0.5)", "rgba(255, 99, 132, 0.5)"]
+      }
+    ]
+  },
+  options: {
+    scales: {
+      y: {
+        beginAtZero: true
+      }
+    }
+  }
+});
+
+
+
+
+
+
       mostrarPrestamosGuardados();
       mostrarPrestadoresProximos(prestadores);
       mostrarPrestadoresCaducados(prestadores);
