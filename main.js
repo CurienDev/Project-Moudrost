@@ -181,7 +181,6 @@ const interesesChart = new Chart(document.getElementById("interesesChart"), {
   options: {
     scales: {
       y: {
-        beginAtZero: true,
         ticks: {
           callback: value => value + "%"
         }
@@ -208,7 +207,6 @@ const plazosChart = new Chart(document.getElementById("plazosChart"), {
   options: {
     scales: {
       y: {
-        beginAtZero: true
       }
     }
   }
@@ -232,7 +230,6 @@ const montoMinimoChart = new Chart(document.getElementById("montoMinimoChart"), 
   options: {
     scales: {
       y: {
-        beginAtZero: true
       }
     }
   }
@@ -257,7 +254,6 @@ const montoMaximoChart = new Chart(document.getElementById("montoMaximoChart"), 
   options: {
     scales: {
       y: {
-        beginAtZero: true
       }
     }
   }
