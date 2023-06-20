@@ -214,7 +214,54 @@ const plazosChart = new Chart(document.getElementById("plazosChart"), {
   }
 });
 
+const montoMinimoChart = new Chart(document.getElementById("montoMinimoChart"), {
+  type: "bar",
+  data: {
+    labels: ["Vigentes", "Próximos"],
+    datasets: [
+      {
+        label: "Monto Mínimo",
+        data: [
+          prestadoresVigentes.map(prestador => prestador.montoMinimo),
+          prestadoresProximos.map(prestador => prestador.montoMinimo)
+        ],
+        backgroundColor: ["rgba(54, 162, 235, 0.5)", "rgba(255, 99, 132, 0.5)"]
+      }
+    ]
+  },
+  options: {
+    scales: {
+      y: {
+        beginAtZero: true
+      }
+    }
+  }
+});
 
+// Comparación de monto máximo
+const montoMaximoChart = new Chart(document.getElementById("montoMaximoChart"), {
+  type: "bar",
+  data: {
+    labels: ["Vigentes", "Próximos"],
+    datasets: [
+      {
+        label: "Monto Máximo",
+        data: [
+          prestadoresVigentes.map(prestador => prestador.montoMaximo),
+          prestadoresProximos.map(prestador => prestador.montoMaximo)
+        ],
+        backgroundColor: ["rgba(54, 162, 235, 0.5)", "rgba(255, 99, 132, 0.5)"]
+      }
+    ]
+  },
+  options: {
+    scales: {
+      y: {
+        beginAtZero: true
+      }
+    }
+  }
+});
 
 
 
